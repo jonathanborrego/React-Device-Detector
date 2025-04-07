@@ -1,0 +1,34 @@
+{
+    "name": "react-device-detector",
+    "version": "1.0.0",
+    "description": "A lightweight React hook for detecting device types",
+    "main": "dist/index.js",
+    "module": "dist/index.modern.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "microbundle",
+      "prepublish": "npm run build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "peerDependencies": {
+      "react": ">=16.8.0"
+    },
+    "devDependencies": {
+      "microbundle": "^0.15.0"
+    },
+    "keywords": [
+      "react",
+      "hooks",
+      "device detection",
+      "responsive"
+    ],
+    "author": "Jonathan Borrego",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonathanborrego/react-device-detector.git"
+    },
+    "files": [
+      "dist"
+    ]
+  }
