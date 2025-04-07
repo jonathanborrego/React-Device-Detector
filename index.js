@@ -1,4 +1,4 @@
-import UseDeviceDetect from './UseDeviceDetect';
+import UseDeviceDetector from './UseDeviceDetector';
 
-export { UseDeviceDetect };
+export { UseDeviceDetector };
 // You can export other utilities here if needed
