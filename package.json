@@ -6,29 +6,29 @@
     "module": "dist/index.modern.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "microbundle",
-      "prepublish": "npm run build",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "microbundle",
+        "prepublish": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "peerDependencies": {
-      "react": ">=16.8.0"
+        "react": ">=16.8.0"
     },
     "devDependencies": {
-      "microbundle": "^0.15.0"
+        "microbundle": "^0.15.1"
     },
     "keywords": [
-      "react",
-      "hooks",
-      "device detection",
-      "responsive"
+        "react",
+        "hooks",
+        "device detection",
+        "responsive"
     ],
     "author": "Jonathan Borrego",
     "license": "MIT",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/jonathanborrego/React-Device-Detector"
+        "type": "git",
+        "url": "https://github.com/jonathanborrego/React-Device-Detector"
     },
     "files": [
-      "dist"
+        "dist"
     ]
-  }
+}
