@@ -6,8 +6,8 @@ EXAMPLE:
 
 import { useDeviceDetect } from 'react-device-detector';
 
-function MyComponent() {
-  const { isMobile, isTablet, isDesktop } = useDeviceDetect();
+function MyComponent() { 
+const { isMobile, isTablet, isDesktop } = useDeviceDetect();
   
   return (
     <div>
